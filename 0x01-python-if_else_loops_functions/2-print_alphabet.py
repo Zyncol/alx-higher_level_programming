@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-l = ord('a')
-while l <= ord('z'):
-  print("{}".format(chr(l)), end="")
-  l = l + 1
+le = ord('a')
+while le <= ord('z'):
+    print("{}".format(chr(le)), end="")
+    le = le + 1
