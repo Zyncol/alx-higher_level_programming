@@ -5,7 +5,7 @@ def safe_print_list(my_list=[], x=0):
     for li in range(x):
         try:
             print(f"{my_list[li]}", end="")
-            sam = sam + 1
+            sam += 1
         except IndexError:
             break
     print()
