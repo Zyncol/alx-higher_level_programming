@@ -21,6 +21,6 @@ class MagicClass:
         """it returns the area of the MagicClass."""
         return (self.__radius ** 2 * math.pi)
 
-    def circumference(self):
+    def cirfrc(self):
         """it return the circumference of MagicClass."""
         return (2 * math.pi * self.__radius)
