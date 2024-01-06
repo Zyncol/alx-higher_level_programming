@@ -2,6 +2,8 @@
 """task 2-rectangle
 a Rectangle class modified
 """
+
+
 class Rectangle:
     """Rectangle class width and height defined"""
 
