@@ -15,7 +15,7 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    def __sitili__(self):
+    def __str__(self):
         """Return:
         an informal and nicely printable string representation
         of rectangle,in '#' character
