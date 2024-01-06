@@ -15,7 +15,7 @@ class Rectangle:
         self.width = width
         self.height = height
 
-        @property
+    @property
     def height(self):
         """a rectangle instance height is set"""
         return self.__height
@@ -31,7 +31,7 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
-        @property
+    @property
     def width(self):
         """the width of a Rectangle instance."""
         return self.__width
