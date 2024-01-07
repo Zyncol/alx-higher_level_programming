@@ -29,7 +29,7 @@ class Rectangle:
         strd = ''
         for k in range(self.__height):
             for j in range(self.__width):
-                strd += '#'
+                strd += str(self.print_symbol)
             strd += '\n'
         return strd[:-1]
 
