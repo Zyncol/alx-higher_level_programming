@@ -8,7 +8,7 @@ def read_file(filename=""):
     """Reads text file  and print it out
     Args:
     filename: textes resides
-    Return: 
+    Return:
          none
     """
     with open(filename, 'r', encoding="utf-8") as f:
