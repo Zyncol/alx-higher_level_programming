@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""class Rectangle inherits from Base"""
+"""
+class Rectangle inherits from Base
+"""
 from models.base import Base
 
 
@@ -117,7 +119,11 @@ class Rectangle(Base):
             print()
 
     def __str__(self):
-        """str method to return rectangle representation"""
+        """
+        str method
+        Return:
+        rectangle representation
+        """
         return '[Rectangle] ({}) {}/{} - {}/{}'.format(self.id,
                                                        self.__x,
                                                        self.__y,
@@ -125,7 +131,9 @@ class Rectangle(Base):
                                                        self.__height)
 
     def update(self, *args, **kwargs):
-        """assigns an argument to each list"""
+        """
+        assigns an argument to individual list
+        """
         if (args):
             for oi, ko in enumerate(args):
                 if oi == 0:
@@ -142,7 +150,10 @@ class Rectangle(Base):
             setattr(self, ikey, ivalue)
 
     def to_dictionary(self):
-        """returns dictionary representation of rectangle"""
+        """
+        Return:
+            dictionary representation of a rectangle
+        """
         my_dict = {}
         my_dict["id"] = self.id
         my_dict["width"] = self.width
