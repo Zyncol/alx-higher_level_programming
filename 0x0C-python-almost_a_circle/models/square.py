@@ -21,4 +21,19 @@ class Square(Rectangle):
         """
         representation of square
         """
-        return '[Square] ({}) {}/{} - {}'.format(self.id,self.x,self.y,self.size)
+        return '[Square] ({}) {}/{} - {}'.format(self.id, self.x, self.y, self.size)
+      @property
+    def size(self):
+        """
+        retrieving the size
+        """
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        """
+        sets width and height of the same value
+        """
+        self.width = value
+        self.height = value
+
