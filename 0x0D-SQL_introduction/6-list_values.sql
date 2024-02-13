@@ -1,2 +1,2 @@
---list all the value
+-- list all the value
 SELECT * FROM first_table;
